@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/canbus/canbus_recv.h
+vector
+-
+net/if.h
+-
+linux/can.h
+-
+linux/can/raw.h
+-
+sys/ioctl.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+memory.h
+-
+iostream
+-
+time.h
+-
+
+/home/es912-35/Downloads/RADAR_homework/src/canbus_recv.cc
+canbus/canbus_recv.h
+/home/es912-35/Downloads/RADAR_homework/src/canbus/canbus_recv.h
+
